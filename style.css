@@ -90,7 +90,7 @@ h3 {
   background-repeat: no-repeat;
   background-position: right top;
 }
-.global-image{
+.global-image {
   background-image: url(images/global-shape.png);
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -100,4 +100,12 @@ h3 {
 .global-image img {
   width: 400px;
   height: 400px;
+}
+
+footer{
+  color: white;
+  background: #0B0D17;
+  text-align: center;
+  padding: 2% 0;
+
 }
