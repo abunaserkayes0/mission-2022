@@ -41,6 +41,7 @@ h3 {
 .single-mission p,
 .develop-content p {
   text-align: justify;
+  padding:1% 0;
 }
 .banner-image img {
   width: 80%;
@@ -79,6 +80,11 @@ h3 {
 .develop-area {
   display: flex;
   margin: 0 100px;
+}
+.develop-image{
+  background-image: url(images/develop-shape.png);
+  background-repeat: no-repeat;
+  background-position:right bottom;
 }
 .develop-image img {
   width: 400px;
