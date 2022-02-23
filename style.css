@@ -19,7 +19,7 @@ h1 {
 .specific-title {
   color: darkturquoise;
 }
-.banner-btn {
+.specific-btn {
   text-decoration: none;
   background-color: darkturquoise;
   color: white;
@@ -31,7 +31,8 @@ h1 {
   width: 50%;
   margin: 0 5%;
 }
-.banner-content p,.single-mission p {
+.banner-content p,
+.single-mission p {
   text-align: justify;
 }
 .banner-image img {
@@ -39,17 +40,31 @@ h1 {
   margin-left: 20%;
 }
 
-.mission-content h2{
-    text-align: center;
-    font-size: 48px;
+.mission-content h2 {
+  text-align: center;
+  font-size: 48px;
 }
-.mission-more{
-    display: flex;
+.mission-more {
+  display: flex;
+  margin-left:2%;
 }
-.single-mission{
-  margin:0 3%;
+.single-mission {
+  width: 360px;
+  height: 376px;
+  margin-left: 1%;
+  padding: 1%;
+  border-radius: 10px;
 }
-.single-mission-image{
-    width: 140px ;
-    height: 140px;
+.single-mission-seagreen {
+  background-color: #4f9da61a;
+}
+.single-mission-salmon {
+  background-color: #ff59591a;
+}
+.single-mission-tomato {
+  background-color: #fff4d6;
+}
+.single-mission-image {
+  width: 140px;
+  height: 140px;
 }
