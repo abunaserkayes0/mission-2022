@@ -109,8 +109,7 @@ h4 {
   background: no-repeat left top url(images/reactanguler-01.png);
 }
 
-.service-area h3,
-.application-area h3 {
+.service-area h3 {
   text-align: center;
 }
 .single-service {
