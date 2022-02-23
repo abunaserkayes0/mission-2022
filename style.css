@@ -13,6 +13,9 @@ h1 {
   border-top: 10px;
   padding-left: 1%;
 }
+h2{
+  font-size: 40px;
+}
 h3 {
   font-size: 36px;
 }
@@ -109,7 +112,7 @@ h4 {
   background: no-repeat left top url(images/reactanguler-01.png);
 }
 
-.service-area h3 {
+.service-area h2,.application-area h2 {
   text-align: center;
 }
 .single-service {
