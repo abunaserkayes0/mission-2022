@@ -33,15 +33,18 @@ h3 {
 .banner-content,
 .banner-image,
 .develop-image,
-.develop-content {
+.develop-content,
+.global-content,
+.global-image {
   width: 50%;
   margin: 0 1%;
 }
 .banner-content p,
 .single-mission p,
-.develop-content p {
+.develop-content p,
+.global-content p {
   text-align: justify;
-  padding:1% 0;
+  padding: 1% 0;
 }
 .banner-image img {
   width: 80%;
@@ -77,16 +80,24 @@ h3 {
   width: 140px;
   height: 140px;
 }
-.develop-area {
+.develop-area,
+.global-area {
   display: flex;
   margin: 0 100px;
 }
-.develop-image{
+.develop-image {
   background-image: url(images/develop-shape.png);
   background-repeat: no-repeat;
-  background-position:right bottom;
+  background-position: right top;
 }
-.develop-image img {
+.global-image{
+  background-image: url(images/global-shape.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.develop-image img,
+.global-image img {
   width: 400px;
   height: 400px;
 }
