@@ -16,7 +16,10 @@ h1 {
 h3 {
   font-size: 36px;
 }
-.banner-area {
+.banner-area,
+.develop-area,
+.global-area,
+.service-more {
   display: flex;
   margin: 0 100px;
 }
@@ -80,11 +83,6 @@ h3 {
   width: 140px;
   height: 140px;
 }
-.develop-area,
-.global-area {
-  display: flex;
-  margin: 0 100px;
-}
 .develop-image {
   background-image: url(images/develop-shape.png);
   background-repeat: no-repeat;
@@ -101,7 +99,24 @@ h3 {
   width: 400px;
   height: 400px;
 }
-
+.service-area h3 {
+  text-align: center;
+}
+.single-service {
+  text-align: center;
+  border-radius: 5px;
+  margin: 1%;
+  padding: 1%;
+}
+.single-service-blue {
+  background-color: lightblue;
+}
+.single-service-salmon {
+  background-color: lightsalmon;
+}
+.single-service-green {
+  background-color: lightgreen;
+}
 footer {
   color: white;
   background: #0b0d17;
