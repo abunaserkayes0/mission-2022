@@ -31,7 +31,7 @@ h1 {
   width: 50%;
   margin: 0 5%;
 }
-.banner-content p {
+.banner-content p,.single-mission p {
   text-align: justify;
 }
 .banner-image img {
@@ -42,4 +42,14 @@ h1 {
 .mission-content h2{
     text-align: center;
     font-size: 48px;
+}
+.mission-more{
+    display: flex;
+}
+.single-mission{
+  margin:0 3%;
+}
+.single-mission-image{
+    width: 140px ;
+    height: 140px;
 }
