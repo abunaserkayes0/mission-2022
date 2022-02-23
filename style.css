@@ -15,6 +15,7 @@ h1 {
 }
 .banner-area {
   display: flex;
+  margin: 0 100px;
 }
 .specific-title {
   color: darkturquoise;
@@ -29,7 +30,7 @@ h1 {
 .banner-content,
 .banner-image {
   width: 50%;
-  margin: 0 5%;
+  margin: 0 1%;
 }
 .banner-content p,
 .single-mission p {
@@ -46,7 +47,8 @@ h1 {
 }
 .mission-more {
   display: flex;
-  margin-left:2%;
+  margin-left: 2%;
+  margin: 0 100px;
 }
 .single-mission {
   width: 360px;
