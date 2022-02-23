@@ -19,7 +19,8 @@ h3 {
 .banner-area,
 .develop-area,
 .global-area,
-.service-more {
+.service-more,
+.application-container {
   display: flex;
   margin: 0 100px;
 }
@@ -99,7 +100,14 @@ h3 {
   width: 400px;
   height: 400px;
 }
-.service-area h3 {
+.application-image img {
+  width: 400px;
+  height: 600px;
+  background: no-repeat left top url(images/reactanguler-01.png);
+}
+
+.service-area h3,
+.application-area h3 {
   text-align: center;
 }
 .single-service {
