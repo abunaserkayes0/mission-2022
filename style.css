@@ -16,6 +16,9 @@ h1 {
 h3 {
   font-size: 36px;
 }
+h4 {
+  font-size: 25px;
+}
 .banner-area,
 .develop-area,
 .global-area,
@@ -130,4 +133,7 @@ footer {
   background: #0b0d17;
   text-align: center;
   padding: 2% 0;
+}
+footer h3{
+  font-style: italic;
 }
